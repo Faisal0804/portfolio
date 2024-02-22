@@ -1,0 +1,191 @@
+/* Mobile*/
+@media (max-width: 575.98px) {
+  
+  
+    .navItem{font-size:14px;padding: 5px 0px;font-weight: 800; }
+    .navMenu{
+        float: right; margin-top:3px !important;margin-right: 0rem; background: #fff; 
+               border-radius:1px  solid rgba(22, 160, 133,0.7);
+              
+               width: 100%;
+               min-height: 300px;
+               text-align: center; 
+               
+
+    }
+    .navTitle{ margin-left:0.5rem;font-size:15px !important;}  
+    .navItemScroll{font-size:10px;padding: 0px 5px;  }
+
+ 
+  
+    .search{margin-left:0.5rem; } 
+    .form-control[type='search']{  display:none ;  }
+    .src-btn{max-width:150px; display:none ;}
+
+    
+    .topContent{margin-top:15rem;}
+    .topSubTitle{ font-size: 25px; margin-bottom: 10px;   }
+    .topTitle h1{ font-size: 18px; } 
+    .topTitle h2{ font-size: 15px; } 
+    .fbIcon{ padding: 4px 6px;font-size: 15px; }
+    .DotIcon{ font-size: 10px;padding: 1px 0px;  }
+    .DotIcon:hover{padding: 4px 5px;  border-radius:75%!important;  }
+
+    .AboutName{ margin-top:1rem;font-size:24px;  }
+    .AboutSubName{font-size: 16px; }
+    .AboutDescription{font-size: 12px; }  
+    .aboutLink{font-size: 14px;   }
+    .aboutImage img{ width: 100%; }
+
+    .serviceCard{ padding: 0px 5px 60px;  }
+    .serviceMainTitle{padding: 70px 0px 0px 0px; font-size: 24px;   }
+    .serviceMainSubTitle{font-size: 16px;  }
+    .serviceName{  margin-top: 0.5rem;   font-size: 16px;}    
+    .hr{width:50px;  margin:1rem auto;   border-width: 2px;  } 
+
+
+    .SkillContain{  margin-top: 5rem; padding-top:5rem ;}
+     
+    .projectName{ font-size: 16px; }
+
+    .ContactContain{
+        margin-top: 6rem;
+        padding-bottom: 15rem;
+    }
+    .contactText{ font-size:  16px; }
+    .leftAddress{ font-size: 10px; padding: 0px;}
+        
+      
+
+    }
+
+/* Tablets*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+       
+    .navItem{font-size:18px;padding:5px 0px;font-weight:500; }
+    .navMenu{   float: right;padding: 0px;padding:1%; margin-top:3px !important;margin-right: 0rem; 
+                background: #fff; 
+                width: 100%;
+               min-height: 300px;
+               text-align: center; 
+     }
+    .navTitle{ margin-left:2rem;font-size:18px !important;} 
+    .navItemScroll{font-size:14px;padding: 0px 0px;  }
+    .search{margin-left: 2rem;} 
+    .src-btn{max-width:250px;display:none ;}
+    .form-control[type='search']{  display:none ;  }
+        
+          
+    .topContent{margin-top:20rem;}
+    .topSubTitle{ font-size: 30px; margin-bottom: 10px;   }
+    .topTitle h1{ font-size: 22px; } 
+    .topTitle h2{ font-size: 20px; } 
+    .fbIcon{ padding: 6px 8px;font-size: 20px; }
+    .DotIcon{ font-size: 14px;padding: 2px 0px;  }
+    .DotIcon:hover{padding: 4px 5px;  border-radius:75%!important;  }
+
+
+    .AboutName{ margin-top:1rem;font-size: 24px; }
+    .AboutSubName{font-size: 20px; }
+    .AboutDescription{font-size: 16px; }  
+    .aboutLink{font-size: 18px;   margin-bottom: 2rem;}
+
+    .serviceCard{ padding: 0px 5px 60px;  }
+    .serviceMainTitle{padding: 70px 0px 0px 0px; font-size: 24px;   }
+    .serviceMainSubTitle{font-size: 20px;  }
+    .serviceName{  margin-top: 0.5rem;   font-size: 20px;} 
+    .hr{width:50px;  margin:1rem auto;   border-width: 2px;  } 
+
+    .SkillContain{  margin-top: 5rem; padding-top:5rem ; }
+
+    .projectName{ font-size: 20px; }
+
+    .ContactContain{
+        margin-top: 4rem;
+        padding-bottom: 17rem;
+    }
+
+    .contactText{ font-size:  20px; }
+    .leftAddress{ font-size: 12px; padding: 0px;}
+
+
+    
+
+
+}
+/* Laptops*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+           
+    .navItem{font-size:18px;padding: 8px 0px; }
+    .navMenu{   float: right;padding: 5px;margin-right: 1rem; margin-top:0px !important;
+        margin-right: 0rem; background: #fff;
+        width: 100%;
+        min-height: 300px;
+        text-align: center; 
+    } 
+    .navTitle{ margin:auto;font-size:24px !important;}   
+    .navItemScroll{font-size:16px;padding: 0px 0px;  }     
+    .search{margin:auto; width:100px; display: none;} 
+    .src-btn{max-width:250px;display:none ;}
+    .form-control[type='search']{  display:none ;  }
+    .topContent{margin-top:20rem;}
+    .topSubTitle{ font-size: 35px; margin-bottom: 10px;   }
+    .topTitle h1{ font-size: 25px; } 
+    .topTitle h2{ font-size: 23px; } 
+    .fbIcon{ padding: 6px 8px;font-size: 24px; }
+    .DotIcon{ font-size: 18px;padding: 2px 0px;  }
+    .DotIcon:hover{padding: 4px 5px;  border-radius:75%!important;  }
+
+    .SkillContain{  margin-top: 5rem; padding-bottom:8rem ; }
+
+    .leftAddress{ font-size: 14px; padding: 0px;}
+
+    .ContactContain{
+        margin-top: 4rem;
+        padding-bottom: 25rem;
+    }
+    
+}
+/* Large display*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navTitle{ margin:2rem;font-size:20px !important;}  
+    .navItem{font-size:14px;padding: 0px 2x; }
+    .navMenu{margin-left:1rem; margin-right: 1rem; }      
+    .search{margin-left:0px; margin-right:1rem;}
+    .form-control{ width:180px;   }
+    .SkillContain{  margin-top: 10rem; padding-bottom:20rem ; }
+    .aboutContain{
+        margin-top: 10rem;
+        padding-bottom: 20rem;
+    }
+
+    .ServicesContain{
+        padding-bottom: 15rem;
+    }
+    .ContactContain{
+        margin-top: 4rem;
+        padding-bottom: 25rem;
+    }   
+    
+}
+
+/* More than Large */
+@media (min-width: 1200px) {
+    .aboutContain{
+        margin-top: 10rem;
+        padding-bottom: 20rem;
+    }
+    .ServicesContain{
+        padding-bottom: 10rem;
+    }
+    .SkillContain{  margin-top: 5rem; padding-bottom:20rem ; }
+    .ContactContain{
+        margin-top: 4rem;
+        padding-bottom: 25rem;
+    }
+      
+
+
+}

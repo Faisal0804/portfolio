@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import TopBanner from "./components/TopBanner/TopBanner";
+
+import TopNav from "./components/TopNav/TopNav";
+import About from "./components/Aboout/about";
+
+import Skill from "./components/Skill/Skill";
+import Project from "./components/Project/Project";
+import Contact from "./components/Contact/Contact";
+import TopPage from "./Pages/TopPage/TopPage";
+
+import AboutPage from "./Pages/AboutPage/AboutPage";
+import SkillPage from "./Pages/SkillPage/SkillPage";
+import ProjectPage from "./Pages/ProjectPage/ProjectPage";
+import ContactPage from "./Pages/ContactPage/ContactPage";
+import WorkPage from "./Pages/WorkPage/WorkPage";
+import {BrowserRouter} from "react-router-dom";
+import AppRoute from "./router/AppRoute";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+     <AppRoute/>
+  </BrowserRouter>
   );
 }
 
